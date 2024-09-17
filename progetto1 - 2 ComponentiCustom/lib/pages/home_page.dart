@@ -41,7 +41,10 @@ class HomePageState extends State<HomePage> {
         backgroundColor: Colors.blue,
       ),
       body: Center(
-        child: Text("Persone in lista d'Attesa: ${widget.value}"),
+        child: Text(
+          "Persone in lista d'Attesa: ${widget.value}",
+          style: TextStyle(fontSize: 20),
+        ),
       ),
     );
   }
